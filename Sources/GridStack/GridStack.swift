@@ -89,6 +89,7 @@ private struct InnerGrid<Content>: View where Content: View {
                     }
                 }.padding(.horizontal, self.spacing)
             }
+            Spacer()
         }
         .padding(.top, spacing)
         .frame(width: width)
